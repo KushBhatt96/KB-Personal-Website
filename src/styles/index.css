@@ -18,19 +18,19 @@
   font-size: 24px;
 }
 
-.navbar-nav li a {
+.nav-link {
   color: white !important;
 }
 
-.navbar-nav li a:hover {
+.nav-link:hover {
   color: #1abc9c !important;
 }
 
-.navbar .navbar-nav .mr-5 {
+.navbar .mr-5 {
   border-bottom: 2px solid transparent;
   transition: 0.2s ease;
 }
-.navbar .navbar-nav .mr-5:hover {
+.navbar .mr-5:hover {
   font-size: 17px;
   border-bottom: 2px solid;
   transition: 0.2s;
@@ -103,6 +103,12 @@
 
 .caption li a {
   color: white;
+  transition: 0.3s ease;
+}
+
+.caption li a:hover {
+  color: #1abc9c;
+  transition: 0.2s;
 }
 
 .caption .btn {
@@ -178,7 +184,7 @@ footer {
   background: #171717;
   color: white;
   font-size: 18px;
-  display: flex!important;
+  display: flex !important;
   justify-content: center;
   align-items: center;
 }
@@ -205,7 +211,8 @@ footer {
 .inner-bottom {
   padding-top: 500px;
   background-image: linear-gradient(rgba(75, 75, 75, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../static/images/Developer.png");
+    url("../../static/images/Developer2.png");
+  background-size: cover;
   clip-path: polygon(0 0, 100% 100px, 100% 500px, 0 500px);
 }
 
@@ -223,8 +230,8 @@ footer {
   overflow: hidden;
   border-radius: 12px;
   background-color: white;
-  margin-left: 10%!important;
-  margin-right: 10%!important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
   margin-bottom: 100px;
   height: 40%;
 }

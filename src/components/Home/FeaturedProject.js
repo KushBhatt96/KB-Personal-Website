@@ -14,6 +14,7 @@ const FeaturedProject = () => {
             <img
               className="mt-5 mb-5 shadow-lg project-square-no-border"
               src="/images/Reactify_img1.PNG"
+              alt="Screenshot of the Reactify Web Application Project by Kush Bhatt"
             />
           </div>
           <div className="col-xl-5 col-lg-12">

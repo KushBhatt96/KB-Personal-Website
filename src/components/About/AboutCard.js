@@ -8,7 +8,11 @@ const AboutCard = props => {
       </div>
       <div className="row post-design shadow">
         <div className="col-xl-3 col-lg-4 about-color1 text-center">
-          <img className="mt-5 mb-5 shadow-lg" src={props.image} />
+          <img
+            className="mt-5 mb-5 shadow-lg"
+            src={props.image}
+            alt="Profile Pic"
+          />
         </div>
         <div className="col-xl-9 col-lg-8 bg-light p-5">
           <h4>{props.innerTitle}</h4>

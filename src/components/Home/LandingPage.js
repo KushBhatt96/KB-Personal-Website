@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 const LandingPage = () => {
   return (
@@ -23,13 +24,13 @@ const LandingPage = () => {
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/kush-bhatt/">
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
           <li>
-            <a
-              href="https://github.com/KushBhatt96"
-              className="fab fa-github"
-            ></a>
+            <a href="https://github.com/KushBhatt96">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
           </li>
         </ul>
         <Link className="btn btn-outline-light" to="/about">
