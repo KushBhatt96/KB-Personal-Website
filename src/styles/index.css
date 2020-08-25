@@ -14,7 +14,7 @@
   letter-spacing: 5px;
 }
 
-.navbar-brand .nav-link{
+.navbar-brand .nav-link {
   font-size: 24px;
 }
 
@@ -113,7 +113,7 @@
   margin-top: 12%;
 }
 
-@keyframes fadeIn{
+@keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -151,7 +151,7 @@
   height: 5px;
 }
 
-.home p{
+.home p {
   font-size: 28px;
   line-height: 32pt;
 }
@@ -160,7 +160,7 @@
   overflow: hidden;
   border-radius: 12px;
   width: 90%;
-  height:90%;
+  height: 90%;
 }
 /* Home Featured Project End -------------------- */
 
@@ -173,13 +173,144 @@
 }
 
 footer {
-  margin-top: 100px;
   width: 100%;
   height: 10vh;
   background: #171717;
-  text-align: center;
   color: white;
   font-size: 18px;
-  padding-top: 40px
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
 }
 /* Home Programming Skills End -------------------- */
+
+/* Main Theme Start -------------------- */
+.inner-top {
+  padding-bottom: 275px;
+  background-image: linear-gradient(rgba(75, 75, 75, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../static/images/Developer.png");
+  background-size: cover;
+  clip-path: polygon(0 0, 0 410px, 100% 510px, 100% 0);
+  text-align: center;
+}
+
+.page-header {
+  padding-top: 125px;
+  font-size: 90px;
+  color: #e4e4e4;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.inner-bottom {
+  padding-top: 500px;
+  background-image: linear-gradient(rgba(75, 75, 75, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../static/images/Developer.png");
+  clip-path: polygon(0 0, 100% 100px, 100% 500px, 0 500px);
+}
+
+.inner-background {
+  background-color: #e9e9e9;
+}
+/* Main Theme End -------------------- */
+
+/* About Card Start -------------------- */
+.inner-mid {
+  overflow: visible;
+}
+
+.post-design {
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: white;
+  margin-left: 10%!important;
+  margin-right: 10%!important;
+  margin-bottom: 100px;
+  height: 40%;
+}
+
+.about-color1 {
+  background-color: #92c4ba;
+  /* background-color: #e9d66a; */
+}
+
+#about img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+#about h1 {
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+#about h4 {
+  font-weight: bold;
+}
+
+#about .about-p1 {
+  font-size: 22px;
+  line-height: 30pt;
+}
+
+#about .about-p2 {
+  font-size: 18px;
+  line-height: 22pt;
+}
+
+/* About Card End -------------------- */
+
+/* Projects Page Start -------------------- */
+.project-square {
+  overflow: hidden;
+  border-radius: 12px;
+  width: 90%;
+  height: 75%;
+}
+
+.project-square-no-border {
+  overflow: hidden;
+  border-radius: 12px;
+  width: 90%;
+  height: 90%;
+}
+
+.project-square-tech {
+  overflow: hidden;
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+}
+
+.project-mobile {
+  border: solid 2px;
+  overflow: hidden;
+  border-radius: 50px;
+  width: 85%;
+  height: 80%;
+}
+
+#projects .p-5 h4 {
+  font-weight: bold;
+}
+
+#projects h1 {
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+#projects .project-p1 {
+  font-size: 20px;
+  line-height: 26pt;
+}
+
+#projects .stack-photos {
+  width: 45px;
+  height: 45px;
+  margin-right: 45px;
+  margin-bottom: 20px;
+}
+
+#projects h1 + h4 {
+  color: #696969;
+}
+/* Projects Page End -------------------- */

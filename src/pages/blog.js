@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import Theme from "../components/theme"
 
 const Blog = () => {
   return (
     <Layout>
-      <h1>Blog</h1>
-      <p>Posts will show up here.</p>
+      <Theme title="Blog"></Theme>
     </Layout>
   )
 }
