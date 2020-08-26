@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import LandingPage from "./../components/Home/LandingPage"
 import FeaturedProject from "./../components/Home/FeaturedProject"
 import ProgrammingSkills from "../components/Home/ProgrammingSkills"
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
+deckDeckGoHighlightElement()
 
 const Home = () => {
   return (

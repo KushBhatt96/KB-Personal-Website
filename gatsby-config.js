@@ -7,6 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -14,6 +15,24 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    "gatsby-transformer-remark",
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "gatsby-remark-relative-images",
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 250,
+              linkImagesToOriginal: false,
+            },
+          },
+          {
+            resolve: `gatsby-remark-highlight-code`,
+          },
+        ],
+      },
+    },
   ],
 }
