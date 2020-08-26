@@ -1,13 +1,13 @@
 ---
-title: "React"
+title: "An Intro to React Hooks"
 date: "August 23, 2020"
-description: "This is the greatest react bootcamp of all time. I am just testing this out you see."
+description: "React hooks are special functions that make it easy for developers to accomplish various tasks. Some of the most commonly used hooks pertain to local state management. We will take a look at some of these and explain how they work. In addition, we will also observe hooks that help enhance the performance of our React app."
 author: "Kush Bhatt"
 ---
 
 ![React](React.png)
 
-In this post you'll learn React.
+In this post you will learn about React Hooks!
 
 <div style="font-size: 18px">
 

@@ -12,7 +12,7 @@ const ProgrammingSkills = () => {
         <div className="row text-center">
           <Skill skillImage="/images/JS.PNG" />
           <Skill skillImage="/images/HTML.PNG" />
-          <Skill skillImage="/images/CSS.PNG" />
+          <Skill skillImage="/images/CSS2.PNG" />
           <Skill skillImage="/images/React.PNG" />
         </div>
         <div className="row text-center mb-5">

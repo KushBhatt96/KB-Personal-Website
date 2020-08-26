@@ -23,27 +23,47 @@ const AppCard = props => {
             <div className="row ml-1">
               {props.FEPhoto1 && (
                 <div>
-                  <img className="stack-photos shadow" src={props.FEPhoto1} alt="Icon of a programming language or technology part of the project stack"/>
+                  <img
+                    className="stack-photos shadow"
+                    src={props.FEPhoto1}
+                    alt="Icon of a programming language or technology part of the project stack"
+                  />
                 </div>
               )}
               {props.FEPhoto2 && (
                 <div>
-                  <img className="stack-photos shadow" src={props.FEPhoto2} alt="Icon of a programming language or technology part of the project stack"/>
+                  <img
+                    className="stack-photos shadow"
+                    src={props.FEPhoto2}
+                    alt="Icon of a programming language or technology part of the project stack"
+                  />
                 </div>
               )}
               {props.FEPhoto3 && (
                 <div>
-                  <img className="stack-photos shadow" src={props.FEPhoto3} alt="Icon of a programming language or technology part of the project stack"/>
+                  <img
+                    className="stack-photos shadow"
+                    src={props.FEPhoto3}
+                    alt="Icon of a programming language or technology part of the project stack"
+                  />
                 </div>
               )}
               {props.FEPhoto4 && (
                 <div>
-                  <img className="stack-photos shadow" src={props.FEPhoto4} alt="Icon of a programming language or technology part of the project stack"/>
+                  <img
+                    className="stack-photos shadow"
+                    src={props.FEPhoto4}
+                    alt="Icon of a programming language or technology part of the project stack"
+                  />
                 </div>
               )}
               {props.FEPhoto5 && (
                 <div>
-                  <img className="stack-photos shadow" src={props.FEPhoto5} alt="Icon of a programming language or technology part of the project stack"/>
+                  <img
+                    className="stack-photos shadow"
+                    src={props.FEPhoto5}
+                    alt="Icon of a programming language or technology part of the project stack"
+                  />
                 </div>
               )}
             </div>
@@ -53,34 +73,56 @@ const AppCard = props => {
             <div className="row ml-1">
               {props.BEPhoto1 && (
                 <div>
-                  <img className="stack-photos shadow" src={props.BEPhoto1} alt="Icon of a programming language or technology part of the project stack"/>
+                  <img
+                    className="stack-photos shadow"
+                    src={props.BEPhoto1}
+                    alt="Icon of a programming language or technology part of the project stack"
+                  />
                 </div>
               )}
               {props.BEPhoto2 && (
                 <div>
-                  <img className="stack-photos shadow" src={props.BEPhoto2} alt="Icon of a programming language or technology part of the project stack"/>
+                  <img
+                    className="stack-photos shadow"
+                    src={props.BEPhoto2}
+                    alt="Icon of a programming language or technology part of the project stack"
+                  />
                 </div>
               )}
               {props.BEPhoto3 && (
                 <div>
-                  <img className="stack-photos shadow" src={props.BEPhoto3} alt="Icon of a programming language or technology part of the project stack"/>
+                  <img
+                    className="stack-photos shadow"
+                    src={props.BEPhoto3}
+                    alt="Icon of a programming language or technology part of the project stack"
+                  />
                 </div>
               )}
               {props.BEPhoto4 && (
                 <div>
-                  <img className="stack-photos shadow" src={props.BEPhoto4} alt="Icon of a programming language or technology part of the project stack"/>
+                  <img
+                    className="stack-photos shadow"
+                    src={props.BEPhoto4}
+                    alt="Icon of a programming language or technology part of the project stack"
+                  />
                 </div>
               )}
               {props.BEPhoto5 && (
                 <div>
-                  <img className="stack-photos shadow" src={props.BEPhoto5} alt="Icon of a programming language or technology part of the project stack"/>
+                  <img
+                    className="stack-photos shadow"
+                    src={props.BEPhoto5}
+                    alt="Icon of a programming language or technology part of the project stack"
+                  />
                 </div>
               )}
             </div>
           </div>
-          <button type="button" className="btn btn-info btn-lg mt-4">
-            View Project
-          </button>
+          {props.linkToCode && (
+            <a className="btn btn-info btn-lg mt-4" href={props.linkToCode}>
+              View Code
+            </a>
+          )}
         </div>
       </div>
     </div>

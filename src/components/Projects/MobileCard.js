@@ -10,7 +10,7 @@ const MobileCard = props => {
       <div className="row post-design shadow">
         <div className="col-xl-3 col-lg-12 text-center about-color1">
           <img
-            className="mt-5 mb-5 shadow-lg project-square"
+            className="mt-5 mb-5 shadow-lg project-square-no-border"
             src={props.mainImage}
             alt="One of Kush Bhatt's personal projects (mobile)"
           />
@@ -118,9 +118,11 @@ const MobileCard = props => {
               )}
             </div>
           </div>
-          <button type="button" className="btn btn-info btn-lg mt-4">
-            View Project
-          </button>
+          {props.linkToCode && (
+            <a className="btn btn-info btn-lg mt-4" href={props.linkToCode}>
+              View Code
+            </a>
+          )}
         </div>
       </div>
     </div>

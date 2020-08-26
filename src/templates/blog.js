@@ -21,7 +21,7 @@ const Blog = props => {
   return (
     <Layout>
       <Theme title="Blog ">
-        <div className="container">
+        <div className="container mt-5">
           <h1>{props.data.markdownRemark.frontmatter.title}</h1>
           <p>
             Posted by {props.data.markdownRemark.frontmatter.author} on{" "}

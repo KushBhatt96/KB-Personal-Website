@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <Layout>
       <Theme title="Projects">
-        <div className="container-fluid inner-mid mb-5" id="projects">
+        <div className="container-fluid inner-mid mb-5 mt-5" id="projects">
           <AppCard
             outerTitle="Reactify"
             outerDescription="Social Networking Web Application"
@@ -27,11 +27,12 @@ const Projects = () => {
             BEPhoto1="images/CSharp.png"
             BEPhoto2="images/dotnet.png"
             BEPhoto3="images/sqlserver.png"
+            linkToCode="https://github.com/KushBhatt96/Reactify"
           />
           <MobileCard
             outerTitle="React Native Mobile App w/ GraphQL"
             outerDescription="UofC Capstone Project"
-            mainImage="images/Capstone_img1.PNG"
+            mainImage="images/Capstone_img.PNG"
             summary="For our capstone, my team and I worked on an industry project related to
           the implementation of a GraphQL API Layer on top of an existing RESTful application in Python.
           The application was a ticketing system for field engineers working on
@@ -39,7 +40,7 @@ const Projects = () => {
           mutations, subscriptions, schemas, and resolvers. In addition to the API, we developed a GraphQL
           Client App to consume the API. I was able to utilize my knowledge of React Native and Redux to build the app.
           I also learned to use Apollo Client for sending queries, mutations, constructing dynamic queries, and
-          offset pagination."
+          offset pagination. We also learned to use JEST and React Native Testing Library for unit, snapshot, and component testing."
             FEPhoto1="images/JS.png"
             FEPhoto2="images/React.png"
             FEPhoto3="images/expo.png"
@@ -65,6 +66,7 @@ const Projects = () => {
             BEPhoto1="images/CSharp.png"
             BEPhoto2="images/dotnet.png"
             BEPhoto3="images/sqlserver.png"
+            linkToCode="https://github.com/MichaelMauriceLee/Bug-Tracker"
           />
           <MobileCard
             outerTitle="Event Planning Mobile App"
@@ -74,7 +76,7 @@ const Projects = () => {
           in progress. The project was initiated when the UofC GNCTR Team (Great Northern Concrete Toboggan Race Team)
           contacted my friend and I to build an app for the 2022 GNCTR competition being held in Calgary. As of now, we are
           working in a team of four during our spare time on the evenings and weekends to develop this application. It involves many
-          new learning opportunities such as the use of third-party auth providers, GraphQL for .NET, and TypeScript."
+          new learning opportunities such as the use of third-party auth providers, user role and permissions management, GraphQL for .NET, and TypeScript."
             FEPhoto1="images/JS.png"
             FEPhoto2="images/React.png"
             FEPhoto3="images/expo.png"
@@ -89,12 +91,13 @@ const Projects = () => {
             mainImage="images/Java_App.PNG"
             summary="This is a client-server tic-tac-toe application written in pure Java. It consists of two jar
           files (client.jar and server.jar). It uses sockets
-          for real-time communication between clients. It utilizes a thread pool allowing multiple
+          for real-time communication between players. It utilizes a thread pool allowing multiple
           pairs of players to play each other simultaneously. To allow users on different machines to play
           each other, the server.jar file was deployed onto an AWS EC2 Linux virtual machine. This allowed me to
           learn about tools such as Putty and WinSCP for connecting and using virtual machines."
             FEPhoto1="images/JAVA.jpg"
             BEPhoto1="images/JAVA.jpg"
+            linkToCode="https://github.com/KushBhatt96/Java-Client-Server-Apps/tree/master/A2_Ex4_Ex5"
           />
         </div>
       </Theme>

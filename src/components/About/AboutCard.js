@@ -3,7 +3,7 @@ import React from "react"
 const AboutCard = props => {
   return (
     <div className="container-fluid inner-mid mb-5" id="about">
-      <div className="text-center">
+      <div className="text-center mt-5">
         <h1>{props.title}</h1>
       </div>
       <div className="row post-design shadow">

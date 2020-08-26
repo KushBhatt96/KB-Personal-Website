@@ -28,7 +28,7 @@ const Blog = () => {
   return (
     <Layout>
       <Theme title="Blog">
-        <div className="inner-mid">
+        <div className="inner-mid mt-5">
           <div className="text-center mb-5">
             <h1 className="blog-h1">Recent Posts</h1>
           </div>

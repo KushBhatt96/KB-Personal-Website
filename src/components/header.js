@@ -8,7 +8,7 @@ const Header = () => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        className="navbar navbar-dark navbar-fixed-top shadow"
+        className="navbar navbar-dark shadow"
       >
         <ul className="navbar-nav">
           <li className="navbar-item navbar-brand">
