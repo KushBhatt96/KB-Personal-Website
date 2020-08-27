@@ -10,8 +10,8 @@ const About = () => {
         <AboutCard
           title="Introduction"
           image="images/ProfileFinal2Cropped.jpg"
-          description="Hello! My name is Kush Bhatt and I am a Software Engineering Masters
-        Student at the University of Calgary. I am passionate about software
+          description="Hello! My name is Kush Bhatt and I am a Software and Chemical Engineering Graduate 
+          from the University of Calgary. I am passionate about software
         development and big data analytics. I have demonstrated this through
         various projects which can be found in the projects section. In
         addition to the software engineering fundamentals I've acquired in

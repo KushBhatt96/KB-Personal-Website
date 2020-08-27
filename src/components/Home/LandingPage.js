@@ -14,7 +14,7 @@ const LandingPage = () => {
       <div className="caption center-block text-center">
         <h3>Hi, I'm Kush.</h3>
         <p>
-          Software Engineering Masters student at the University of Calgary
+          Software Engineering Graduate from the University of Calgary
           <br />
           with a passion for software development and data science.
           <br />
