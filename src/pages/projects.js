@@ -66,7 +66,7 @@ const Projects = () => {
             BEPhoto1="images/CSharp.png"
             BEPhoto2="images/dotnet.png"
             BEPhoto3="images/sqlserver.png"
-            linkToCode="https://github.com/MichaelMauriceLee/Bug-Tracker"
+            linkToCode="https://github.com/KushBhatt96/Bug-Tracker-App"
           />
           <MobileCard
             outerTitle="Event Planning Mobile App"
