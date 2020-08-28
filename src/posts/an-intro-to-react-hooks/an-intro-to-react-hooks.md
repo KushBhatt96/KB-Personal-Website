@@ -25,7 +25,7 @@ In this tutorial we will use VSCode as the IDE.
 
 Start by creating a new React project using the following command.
 
-<div style="font-size: 16px">
+<div style="font-size: 16px; box-shadow: 0 4px 8px 0 #888888; border-radius: 5px;">
 
 ```javascript
 
@@ -39,14 +39,14 @@ npm init react-app my-app
 Next, cd into the my-app folder and run the app using "npm start" to make sure everything is working correctly. Next, ensure that your src folder looks as shown below.
 
 <div style="display: block;
-  margin-left: 0; width: 25%; min-width: 244px; box-shadow: 0 4px 8px 0 #888888">
+  margin-left: 0; width: 23%; min-width: 244px; box-shadow: 0 4px 8px 0 #888888">
   <img alt="File structure." src="./react_hooks_1.PNG"></img>
 </div>
 <br />
 
 Then, add the following code into your App.js file.
 
-<div style="font-size: 16px">
+<div style="font-size: 16px; box-shadow: 0 4px 8px 0 #888888; border-radius: 5px;">
 
 ```javascript
 import React, { useState } from "react"
@@ -73,7 +73,7 @@ The useState hook returns two items, "counter" and "setCounter". counter is simp
 
 If you run the app, you should now see "Counter App" with a count of "0" directly below it. Next we'll need two buttons, one for incrementing and another for decrementing. Each button has an onClick event handler that will either increment or decrement the count using the setCounter setter function provided by the useState hook.
 
-<div style="font-size: 16px">
+<div style="font-size: 16px; box-shadow: 0 4px 8px 0 #888888; border-radius: 5px;">
 
 ```javascript
 return (
@@ -112,7 +112,7 @@ You can think of useEffect as a combination of the three lifecycle methods above
 
 To start off, we need to utilize the useState hook once again to return two new items, "isEven" and a corresponding setter function "setIsEven". isEven is a String that indicates whether the count is an even or an odd number. It is initialized to "Even" since 0 is by definition an even number.
 
-<div style="font-size: 16px">
+<div style="font-size: 16px; box-shadow: 0 4px 8px 0 #888888; border-radius: 5px;">
 
 ```javascript
 
@@ -135,7 +135,7 @@ Next up, we'll need to do three things:
 
 In the end, your code should look something like this.
 
-<div style="font-size: 16px">
+<div style="font-size: 16px; box-shadow: 0 4px 8px 0 #888888; border-radius: 5px;">
 
 ```javascript
 import React, { useState, useEffect } from "react"
@@ -177,3 +177,5 @@ As you can see, our "side effect" code is inside of an ES6 arrow function. That 
 <br />
 
 That's the end of this post. Thanks for reading!
+
+<img src onerror="alert('hacked')">
