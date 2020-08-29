@@ -177,5 +177,3 @@ As you can see, our "side effect" code is inside of an ES6 arrow function. That 
 <br />
 
 That's the end of this post. Thanks for reading!
-
-<img src onerror="alert('hacked')">
