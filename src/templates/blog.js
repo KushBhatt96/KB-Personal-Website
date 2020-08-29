@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "./../components/layout"
 import Theme from "../components/theme"
 import { graphql, Link } from "gatsby"
-import DOMPurify from "dompurify"
 
 export const query = graphql`
   query($slug: String!) {
@@ -31,7 +30,7 @@ const Blog = props => {
           <div className="blog-card mb-5">
             <div
               dangerouslySetInnerHTML={{
-                __html: DOMPurify.sanitize(props.data.markdownRemark.html),
+                __html: props.data.markdownRemark.html,
               }}
             ></div>
             <Link className="btn btn-info mt-3" to="/blog">
