@@ -4,8 +4,6 @@ import Theme from "../components/theme"
 import { graphql, Link } from "gatsby"
 import DOMPurify from "dompurify"
 
-const sanitizer = DOMPurify.sanitize
-
 export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -33,7 +31,7 @@ const Blog = props => {
           <div className="blog-card mb-5">
             <div
               dangerouslySetInnerHTML={{
-                __html: sanitizer(props.data.markdownRemark.html),
+                __html: DOMPurify.sanitize(props.data.markdownRemark.html),
               }}
             ></div>
             <Link className="btn btn-info mt-3" to="/blog">
